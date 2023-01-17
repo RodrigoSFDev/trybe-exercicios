@@ -7,5 +7,16 @@ p{
 }
 body{
     font-size: 16px;
-    
+    font-style: italic;
+    line-height: 50px;
+    text-align: justify;
+}
+.Amarelo {
+    background-color: yellow;
+}
+.Vermelho {
+    background-color: red;
+}
+.Marrom {
+    background-color: brown;
 }
