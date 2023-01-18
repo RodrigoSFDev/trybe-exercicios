@@ -1,3 +1,18 @@
 div:hover{
     border: 1px solid black;
 }
+#azul {
+    background-color: blue;
+}
+#verde {
+    background-color: green;
+}
+#violeta {
+    background-color: blueviolet;
+}
+#escura {
+    background-color: darkblue;
+}
+#clara {
+    background-color: lightblue;
+}
