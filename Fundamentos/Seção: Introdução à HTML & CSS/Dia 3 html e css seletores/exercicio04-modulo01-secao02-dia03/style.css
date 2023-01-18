@@ -31,4 +31,6 @@ div:hover{
 }
 #h5{
     color: blue;
+}div:nth-child(odd){
+    font-style: italic;
 }
