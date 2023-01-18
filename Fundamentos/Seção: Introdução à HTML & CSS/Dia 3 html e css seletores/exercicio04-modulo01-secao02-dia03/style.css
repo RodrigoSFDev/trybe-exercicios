@@ -9,10 +9,26 @@ div:hover{
 }
 #violeta {
     background-color: blueviolet;
+    height: 50px;
 }
 #escura {
     background-color: darkblue;
 }
 #clara {
     background-color: lightblue;
+}
+#h1 {
+    color: antiquewhite;
+}
+#h2 {
+    color: darkgoldenrod;
+}
+#h3{ 
+    color: brown;
+}
+#h4{
+    color: aliceblue;
+}
+#h5{
+    color: blue;
 }
