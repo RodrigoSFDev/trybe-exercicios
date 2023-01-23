@@ -1,4 +1,4 @@
-const currentHour = 23;
+const currentHour = 3;
 let messege = '';
 if (currentHour >= 22){
     messege = 'Não deveríamos comer nada, é hora de dormir';
