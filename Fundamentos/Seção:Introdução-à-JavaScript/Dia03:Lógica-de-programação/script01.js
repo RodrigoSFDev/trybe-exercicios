@@ -1,5 +1,5 @@
 let fatorial1 = 1
-for( let index = 1; index <= 10; index += 1){
+for( let index = 1; index <= 4; index += 1){
     fatorial1 *= index
 }
 console.log(fatorial1);
