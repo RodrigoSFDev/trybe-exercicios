@@ -18,3 +18,5 @@ let player = {
 console.log('A jogadora', player.name, player.lastName,'tem',player.age, 'anos de idade.');
 /* Acesse a chave bestInTheWorld, usando a sintaxe meuObjeto['chave'], e faça um console.log no seguinte formato: “A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes”. */
 console.log('A jogadora', player.name, player.lastName, 'foi eleita a melhor do mundo por',player.melhorDoMundo.length, 'vezes.')
+
+/* Acesse a chave medals, usando a sintaxe meuObjeto.chave, e faça um console.log no seguinte formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”. */

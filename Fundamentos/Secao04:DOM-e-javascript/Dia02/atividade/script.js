@@ -24,3 +24,7 @@
 
   // Agora acesse o terceiroFilho a partir de pai.
   const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+
+  const irmaoElementoOndeVoceEsta = document.createElement('section'); // Crie um novo elemento
+    irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+    pai.appendChild(irmaoElementoOndeVoceEsta);
