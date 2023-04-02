@@ -1,21 +1,24 @@
+import React from 'react'
 import './App.css';
-const func = () => {
-  return console.log('Alguma coisa');
-}
-const func1 = () => {
-  return console.log('Qualquer coisa');
-}
-const func2 = () => {
-  return console.log('Sei lá');
-}
-function App() {
-  return (
-  <div className="App">
-    <button onClick={func}>1</button>
-    <button onClick={func1}>2</button>
-    <button onClick={func2}>3</button>
-  </div>
-  );
-}
 
-export default App;
+export default class App extends React.Component {
+  func = () => {
+    console.log('Alguma coisa');
+  }
+  func1 = () => {
+    console.log('Qualquer coisa');
+  }
+  func2 = () => {
+    console.log('Sei lá');
+  }
+  render() {
+    
+    return (
+    <div className="App">
+      <button onClick={this.func}>1</button>
+      <button onClick={this.func1}>2</button>
+      <button onClick={this.func2}>3</button>
+    </div>
+    );
+  }
+}
